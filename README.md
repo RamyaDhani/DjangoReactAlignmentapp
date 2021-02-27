@@ -5,6 +5,7 @@ The settings.py file of the django includes the configuration of the alignapi (P
 which holds the crud framework for post, get for sequence alignment submission and viewing the results
 This api uses biopython library and does the pairwise alignment of the given DNA sequence with that of a protein and returns the protein name and the start
 and end point of the region of alignment.
+For the alignment to work in a timely manner, the fastas of the protein are downloaded in this app
 Sequence data example is as follows:
 [
     {
