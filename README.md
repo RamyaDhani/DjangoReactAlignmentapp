@@ -32,4 +32,5 @@ This does the post request to the backend where it passes the DNA sequence and g
 
 To run the front end
 Go into: "AlignmentApp\align_controller\frontend\gui", run npm i to install dependencies
+After that run npm start to bring the frontend up
 
